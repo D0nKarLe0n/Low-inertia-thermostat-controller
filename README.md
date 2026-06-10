@@ -12,7 +12,6 @@ Traditional mechanical thermostats suffer from massive thermal inertia (response
 2. **Feedback Control (PID):** A high-speed NTC thermistor ($R_{25} = 10k\Omega$) with a fast thermal response time ($\tau = 1.2s$) provides continuous feedback to a PID loop, eliminating steady-state errors with extreme precision.
 
 ### Block Diagram
-*(Add your block diagram here by dragging and dropping `image_a3cc08.jpg` into the GitHub editor)*
 ![alt text](image.png)
 ---
 
@@ -35,10 +34,8 @@ To ensure signal integrity between the analog measurement circuits and the high-
 * **Signal Conditioning:** Passive RC low-pass filters ($f_c \approx 160$ Hz) on the ADC inputs to filter out high-frequency noise without introducing phase delay to the control loop.
 
 ### Schematic & PCB Layout
-*(Add your schematic here by dragging and dropping `image_a3cf0e.png` into the GitHub editor)*
 ![alt text](image-1.png)
 
-*(Add your PCB layout here by dragging and dropping `image_a3cf09.jpg` into the GitHub editor)*
 ![alt text](image-2.png)
 ---
 
